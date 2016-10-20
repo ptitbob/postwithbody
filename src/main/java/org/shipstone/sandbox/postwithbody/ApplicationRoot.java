@@ -6,6 +6,6 @@ import javax.ws.rs.core.Application;
 /**
  * @author François Robert
  */
-@ApplicationPath("")
+@ApplicationPath("api")
 public class ApplicationRoot extends Application {
 }

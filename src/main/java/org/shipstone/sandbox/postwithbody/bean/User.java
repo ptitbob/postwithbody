@@ -2,15 +2,18 @@ package org.shipstone.sandbox.postwithbody.bean;
 
 import lombok.Data;
 
+import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Date;
+
+import static javax.xml.bind.annotation.XmlAccessType.FIELD;
 
 /**
  * @author François Robert
  */
 @Data
 @XmlRootElement
+@XmlAccessorType(FIELD)
 public class User {
 
   @XmlAttribute
@@ -18,8 +21,14 @@ public class User {
 
   private String username;
 
-  private Date creationDate;
+  /**
+   * Date au format YYYY-MM-DD
+   */
+  private String creationDate;
 
-  private Date expirationDate;
+  /**
+   * Date au format YYYY-MM-DD
+   */
+  private String expirationDate;
 
 }
