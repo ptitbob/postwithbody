@@ -114,4 +114,4 @@ X-Powered-By: Undertow/1
 
 ---
 
-*Pour les appel, j'utilise [HTTPie](https://github.com/jkbrzt/httpie), c'est quand même plus lisible qu'avec un cURL des familles :)
+*Pour les appel, j'utilise [HTTPie](https://github.com/jkbrzt/httpie), c'est quand même plus lisible qu'avec un cURL des familles* :)
