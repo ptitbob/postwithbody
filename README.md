@@ -5,7 +5,7 @@ Suite à une discussion avec [@nogunner](https://twitter.com/nogunner), [@Ludovi
  Si on suit les recommandation de la "spec" RESTFul, une méthode ```POST``` ne doit renvoyer une réponse sans body avec dans les header le champs location qui est l'URL d'acces à la ressource via le verbe ```GET```.
  Car on part du principe que l'ensemble des données de la ressource créée (hormis l'id), se trouve déjà du côté client, ou que l'appel de la ressource identifié par son URI est peu couteuse.
  
- Cependant [@LudovicLafole](https://twitter.com/LudovicLafole) m'a fait remarqué, fort justement, que cela n'avait de valeur dans le cas seulement ou la latence du réseau et le temps de transfert étaient faible...
+ Cependant [@LudovicLafole](https://twitter.com/LudovicLafole) m'a fait remarquer, fort justement, que cela n'avait de valeur dans le cas seulement ou la latence du réseau et le temps de transfert étaient faible...
  
  Mais dans le cas d'un developpement d'une API succeptible d'être intérrogée par une application mobile dependante de la qualité du reseau, ce type de considération pouvait avoir son importance.
   
