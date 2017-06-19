@@ -35,9 +35,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId></groupId>
-            </plugin>
         </plugins>
     </build>
 </project>
