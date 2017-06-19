@@ -18,7 +18,7 @@ Suite à une discussion avec [@nogunner](https://twitter.com/nogunner), [@Ludovi
  
  ---
  
- ####Implémentation JAX-RS
+ #### Implémentation JAX-RS
  
  Dans le cadre d'un developpement JAX-RS (spec REST de JavaEE, mais aussi applicable sur un dev Spring[boot]), il suffit d'injecter les headers de la requete au niveau de votre méthode pointé par le verbe ```POST```
  
@@ -43,7 +43,7 @@ Je test si aucun format n'est attendu (```MediaType.WILDCARD_TYPE``` qui corresp
 
 Pour les appels :
 
-#####Appel sans demande spécifique de format de réponse
+##### Appel sans demande spécifique de format de réponse
 
 ```shell
 http -f POST :8080/api/user username='machin'
@@ -61,7 +61,7 @@ Server: WildFly/10
 X-Powered-By: Undertow/1
 ```
 
-#####Appel avec demade spécifique de format de réponse (```application/json```)
+##### Appel avec demade spécifique de format de réponse (```application/json```)
 
 ```shell
 http -f POST :8080/api/user username='machin' accept:'application/json'
@@ -86,7 +86,7 @@ X-Powered-By: Undertow/1
 }
 ```
 
-#####Appel avec demade spécifique de format de réponse (```application/xml```)
+##### Appel avec demade spécifique de format de réponse (```application/xml```)
 
 ```shell
 http -f POST :8080/api/user username='machin' accept:'application/xml'
