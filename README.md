@@ -1,4 +1,4 @@
-##Reponse POST avec ou sans body
+## Reponse POST avec ou sans body
 
 Suite à une discussion avec [@nogunner](https://twitter.com/nogunner), [@LudovicLafole](https://twitter.com/LudovicLafole) et [@cestpasdur](https://twitter.com/cestpasdur) sur le channel TourJS du [slack dev Tours](https://devtours.slack.com/messages) concernant le type de réponse attendu de la méthode POST d'une API RESTFul j'ai pondu ce petit POC JAX-RS.
  
