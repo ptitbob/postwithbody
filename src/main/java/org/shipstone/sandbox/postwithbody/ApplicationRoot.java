@@ -1,11 +1,16 @@
 package org.shipstone.sandbox.postwithbody;
 
-import javax.ws.rs.ApplicationPath;
-import javax.ws.rs.core.Application;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author François Robert
  */
-@ApplicationPath("api")
-public class ApplicationRoot extends Application {
+@SpringBootApplication
+public class ApplicationRoot {
+
+  public static void main(String... arguments) {
+    SpringApplication.run(ApplicationRoot.class, arguments);
+  }
+
 }
